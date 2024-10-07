@@ -15,7 +15,7 @@ lint:
 
 git-commit:
 	git add .
-	git commit -m "&(COMMIT)"
+	git commit -m "$(COMMIT)"
 	git push
 
 install:
