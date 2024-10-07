@@ -2,6 +2,8 @@ PYTHON = python
 UVI = uvicorn
 RUFF = ruff
 POETRY = poetry
+COMMIT ?= Обновление 
+
 
 .PHONY: run
 run:
